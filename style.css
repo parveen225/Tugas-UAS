@@ -1,0 +1,241 @@
+@font-face {
+    font-family: reguler;
+    src: url(font/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: ost;
+    src: url(./font/ostrich-black.ttf);
+}
+
+/* font judul tmii */
+@font-face {
+    font-family: walto;
+    src: url(font/waltographUI.ttf);
+}
+
+/* judul icon */
+@font-face {
+    font-family: roma;
+    src: url(font/ROMANUS.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: reguler;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+
+}
+
+body{
+    background-color:rgb(50, 76, 50);
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    font-family: walto;
+    letter-spacing: 1.5px;
+}
+
+/* navbar */
+header {
+    background-color: rgba(240, 248, 255, 0.047);
+    height: 10px;
+}
+
+.nav-list {
+    display: flex;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.nav-list a{
+    color: black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    font-family: reguler;
+    color: black;
+}
+
+.nav-list a:hover {
+    border-bottom: 2px solid black;
+}
+
+#menu-icon {
+    display: none;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+
+/* img */
+.img-1 {
+    position: absolute;
+    width: 100vh;
+    margin-left: 90vh;
+    top: 30vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    color: rgba(0, 0, 0, 0.238);
+}
+
+/* text TMII big */
+.box-text{
+    position: absolute;
+    text-align: center;
+    font-family: walto;
+    text-shadow: 3px 2px 1px rgb(67, 58, 58);
+    margin-top: 10vh;
+    margin-left: 10vh;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+.h5{
+    font-family: ost;
+    position: absolute;
+    margin-bottom:10 px;
+    text-size-adjust: 10px;
+    font-family: roma;
+    top: -280vh;
+}
+
+/* tmii text height */
+
+
+/* img jembatan */
+.tmpt {
+    position: absolute;
+    right: 10%;
+    border-radius: 20px;
+    top: 130vh;
+    width: 130vh;
+    left: 10%;
+    box-shadow: 13px 13px;
+    color: rgba(0, 0, 0, 0.238);
+}
+
+/* text about */
+.text-1 {
+    position: absolute;
+    padding: 30px;
+    top:200vh;
+    margin-left: 90vh;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 180px;
+    width: 100vh;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* bagian gambar */
+.mySlide {display:none;
+    max-width: 500px;
+    width: 100%;
+}
+
+.slide {
+    position: absolute;
+    top: 200vh;
+}
+
+.jembatan {
+    position: absolute;
+    top: 250vh;
+    left: 50vh;
+    box-shadow: 13px 13px;
+    color: rgba(0, 0, 0, 0.238);
+    border-radius: 10px;
+}
+
+.text-2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 35%;
+    top: 250vh;
+    border-radius: 20px;
+    height: 60px;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(126, 134, 141);
+    font-size: 30px;
+    font-family: roma;
+}
+
+.slider-frame {
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 300vh;
+}
+
+
+.img-container {
+    height: 800px;
+    width: 800px;
+    position: relative;
+    float: left;
+}
+.text-3 {
+    position: absolute;
+    top: 350vh;
+}
+
+.baru {
+    position: absolute;
+    top: 310vh;
+    font-family: roma;
+    left: 47%;
+    background-color: azure;
+    width: 19vh;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.swiper-container{
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background-position: 50% 50%;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 330vh;
+    transform: translate3d(0,-50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px black;
+}
