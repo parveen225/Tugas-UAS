@@ -25,6 +25,30 @@ body{
     overflow: hidden;
 }
 
+
+/* navbar */
+header {
+    background-color: rgba(240, 248, 255, 0.047);
+    height: 10px;
+}
+
+.nav-list {
+    display: flex;
+    vertical-align:bottom;
+    width: 50%;
+}
+
+.nav-list a{
+    color: black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    font-family: reguler;
+    color: black;
+}
+
 .container{
     position: absolute;
     left:50%;
