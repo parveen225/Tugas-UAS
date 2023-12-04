@@ -27,14 +27,16 @@
     src: url(./font/Catchy\ Mager\ Regular.ttf);
 }
 
+
 body{
     background-image: url(./img/img/bg.gif);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
 }
+
+/* navbar */
+
 
 .container{
     position: absolute;

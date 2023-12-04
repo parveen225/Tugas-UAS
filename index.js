@@ -9,5 +9,5 @@ document.getElementById('prev').onclick = function(){
 
 // button on
 document.getElementById("btn-2").onclick = function() {
-  window.location.href = "about.html";}
+  window.location.href = "./about/about.html";}
 
