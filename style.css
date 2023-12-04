@@ -138,6 +138,7 @@ body{
 }
 
 .item button{
+    top: 100vh;
     padding:10px 20px;
     border:none;
     opacity: 0;
