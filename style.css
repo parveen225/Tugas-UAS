@@ -27,154 +27,94 @@
     src: url(./font/Catchy\ Mager\ Regular.ttf);
 }
 
-
-body{
-    background-image: url(./img/img/bg.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-/* navbar */
-
-
-
-.container{
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    width:1000px;
-    height:600px;
-    padding:50px;
-    background-color: #f5f5f5;
-    box-shadow: 0 30px 50px #dbdbdb;
+.container {
+    width: 100%;
+    height: 100%;  
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
 }
 
-#slide{
-    width:max-content;
-    margin-top:50px;
+.navbar {
+    width: 90%;
+    pad: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.item{
-    width:200px;
-    height:300px;
-    background-position: 50% 50%;
+.logo {
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+    font-family: walto;
+}
+
+.navbar ul li {
+    list-style: none;
     display: inline-block;
+    margin: 20px;
+    font-family: roma;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+li a:hover {
+    background: #fff;
     transition: 0.5s;
-    background-size: cover;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.content {
+    width: 100%;
     position: absolute;
-    z-index: 1;
-    top:50%;
-    transform: translate(0,-50%);
-    border-radius: 20px;
-    box-shadow:  0 30px 50px #505050;
-}
-
-.item:nth-child(1),
-.item:nth-child(2){
-    left:0;
-    top:0;
-    transform: translate(0,0);
-    border-radius: 0;
-    width:100%;
-    height:100%;
-    box-shadow: none;
-}
-
-.item:nth-child(3){
-    left:50%;
-}
-
-.item:nth-child(4){
-    left:calc(50% + 220px);
-}
-
-.item:nth-child(5){
-    left:calc(50% + 440px);
-}
-
-.item:nth-child(n+6){
-    left:calc(50% + 660px);
-    opacity: 0;
-}
-
-.item .content{
-    position: absolute;
-    top:50%;
-    left:100px;
-    width:300px;
-    text-align: left;
-    padding:0;
-    color:#eee;
-    transform: translate(0,-50%);
-    display: none;
-    font-family: system-ui;
-}
-
-.item:nth-child(2) .content{
-    display: block;
-    z-index: 11111;
-}
-
-/* judul */
-.item .name{
-    color: #000000;
-    font-family: judul;
-    font-size: 40px;
-    font-weight: bold;
-    text-shadow:3px 2px 1px rgb(255, 255, 255);
-    opacity: 0;
-    animation:showcontent 1s ease-in-out 1 forwards
-    
-}
-/* teks */
-.item .des{
-    font-family: ost;
-    margin:20px 0;
-    opacity: 0;
-    animation:showcontent 1s ease-in-out 0.3s 1 forwards;
-    text-shadow:3px 2px 1px rgb(67, 58, 58);
-}
-
-.item button{
-    top: 100vh;
-    padding:10px 20px;
-    border:none;
-    opacity: 0;
-    animation:showcontent 1s ease-in-out 0.6s 1 forwards
-}
-
-@keyframes showcontent{
-    from{
-        opacity: 0;
-        transform: translate(0,100px);
-        filter:blur(33px);
-    }to{
-        opacity: 1;
-        transform: translate(0,0);
-        filter:blur(0);
-    }
-}
-
-.buttons{
-    position: absolute;
-    bottom:18vh;
-    right: 63vh;
-    z-index: 222222;
+    color: #fff;
+    top: 45%;
+    transform: translateY(-50%);
     text-align: center;
-    width:100%;
 }
 
-.buttons button{
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    border:1px solid #555;
-    transition: 0.5s;
-}.buttons button:hover{
-    background-color: #bac383;
+.content h1{
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
 }
+
+button {
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover {
+    background: rgb(61, 61, 169);
+    transition: 0.5s;
+}
+button {
+    color: #fff;
+}
+
 
 /* footer */
 .footer {
@@ -187,9 +127,3 @@ body{
     height: 9vh;
 }
 
-.see {
-    font-family: reguler;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: rgb(215, 176, 47);
-}
