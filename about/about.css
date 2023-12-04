@@ -16,6 +16,13 @@ body {
     margin: 0;
 }
 
+#container {
+    overflow-y: scroll; 
+    height: 1000px; 
+    overflow-y: scroll; 
+    padding: 20px;
+}
+
 /* awalan */
 .jdl {
     position: absolute;
@@ -27,6 +34,7 @@ body {
     bottom: 10vh;
     font-weight: bold;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.199);
+    text-shadow:3px 2px 1px rgb(67, 58, 58);
 
 }
 
@@ -48,7 +56,7 @@ body {
     top: 30vh;
     font-size: 23px;
     color: aliceblue;
-    font-family: ost;
+    font-family: reguler;
     letter-spacing: 1px;
 }
 
