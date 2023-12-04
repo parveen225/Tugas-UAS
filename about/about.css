@@ -54,61 +54,33 @@ body {
 
 
 /* info 2 */
-.info-1 {position: absolute;
-    top: 110vh;
-    left: 98vh;
-    border: 1px solid #ccc; 
-    padding: 20px; 
-    margin: 20px; 
-    border-radius: 8px; 
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px black; 
-}
-
 .img-2 {
     position: absolute;
-    font-family: reguler;
-    width: 80vh;
-    left: 10vh;
     top: 110vh;
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
-
+    width: 100%;
 }
 
-/* info 3 */
-.info-box2 {position: absolute;
-    top: 110vh;
-    left: 98vh;
+h2 {
+    position: absolute;
+    top: 140vh;
+    font-size: 10vh;
+    left: 10vh;
+    color: #fff;
+    font-family: ost;
+    text-shadow:3px 2px 1px rgb(67, 58, 58);
+
+}
+.text-2 {
+    position: absolute;
+    top: 170vh;
     border: 1px solid #ccc; 
     padding: 20px; 
     margin: 20px; 
     border-radius: 8px; 
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px black; 
-}
-
-.img-3 {
-    position: absolute;
     font-family: reguler;
-    width: 80vh;
-    left: 10vh;
-    top: 110vh;
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
-
 }
-
-
-
-
-
-
-
-
-
 
 
 /* footer */
