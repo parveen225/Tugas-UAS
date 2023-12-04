@@ -91,6 +91,34 @@ h2 {
 }
 
 
+
+/* galeri */
+
+.bold-2 {
+    position: absolute;
+    top: 220vh;
+    font-size: 10vh;
+    left: 10vh;
+    color: #fff;
+    font-family: ost;
+    text-shadow:3px 2px 1px rgb(67, 58, 58);
+
+}
+
+.galeri {
+    display: flex;
+}
+
+.galeri .glr {
+    position:relative;
+    top: 250vh;
+    width: 40vh; 
+    margin-right: 20px; 
+    left: 11vh;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
 /* footer */
 .footer {
     background-color: #33333350;
