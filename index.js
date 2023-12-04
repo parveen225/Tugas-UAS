@@ -8,6 +8,6 @@ document.getElementById('prev').onclick = function(){
 }
 
 // button on
-document.getElementById("btn-2").onclick = function() {
-  window.location.href = "./about/about.html";}
+document.getElementById("btn-1").onclick = function() {
+  window.location.href = "about.html"};
 

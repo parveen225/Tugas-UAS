@@ -31,6 +31,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -47,6 +48,7 @@ body {
     background-size: center;
 }
 
+/* navbar */
 .navbar {
     width: 90%;
     pad: 30px;
@@ -75,17 +77,20 @@ body {
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
+    background: transparent;
 }
 
 li a:hover {
     background: #fff;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-    color: black;
+    color: rgb(49, 40, 113);
 }
 
+/* content */
 .content {
     width: 100%;
     position: absolute;
@@ -101,6 +106,7 @@ li a:hover {
     font-weight: 800;
 }
 
+/* button */
 button {
     width: 200px;
     padding: 15px;
@@ -118,15 +124,26 @@ button:hover {
     transition: 0.5s;
 }
 button {
-    color: #fff;
+    color: black;
 }
 
+/* bg */
 .container img-home {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
