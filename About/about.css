@@ -1,0 +1,125 @@
+/* text reguler */
+@font-face {
+    font-family: ost;
+    src: url(./font/ostrich-black.ttf);
+}
+
+
+@font-face {
+    font-family: reguler;
+    src: url(font/PTSans-Regular.ttf);
+}
+
+body {
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+}
+
+/* awalan */
+.jdl {
+    position: absolute;
+    color: aliceblue;
+    font-family: ost;
+    font-size: 7vh;
+    left: 10vh;
+    letter-spacing: 5px;
+    bottom: 10vh;
+    font-weight: bold;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.199);
+
+}
+
+/* info 1 */
+.img-1 {
+    position: absolute;
+    top: 7vh;
+    left: 15vh;
+    width: 90vh;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+}
+
+.text-1 {
+    position: absolute;
+    margin-left: 110vh;
+    margin-right: 1vh;
+    top: 30vh;
+    font-size: 23px;
+    color: aliceblue;
+    font-family: ost;
+    letter-spacing: 1px;
+}
+
+
+/* info 2 */
+.info-box1 {position: absolute;
+    top: 110vh;
+    left: 98vh;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px black; 
+}
+
+.img-2 {
+    position: absolute;
+    font-family: reguler;
+    width: 80vh;
+    left: 10vh;
+    top: 110vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+/* info 3 */
+.info-box2 {position: absolute;
+    top: 110vh;
+    left: 98vh;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px black; 
+}
+
+.img-3 {
+    position: absolute;
+    font-family: reguler;
+    width: 80vh;
+    left: 10vh;
+    top: 110vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: #33333350;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 9vh;
+}
+
+
