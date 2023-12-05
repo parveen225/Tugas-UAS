@@ -97,14 +97,34 @@ li a:hover {
     color: #fff;
     top: 45%;
     transform: translateY(-50%);
-    text-align: center;
 }
 
 .content h1{
-    margin-top: 80px;
-    font-size: 90px;
-    font-weight: 800;
+    margin-left: 10vh;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 800px;
+    animation: moveUp 1s ease-in-out;
 }
+
+@keyframes moveUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
 
 /* button */
 button {
@@ -127,6 +147,9 @@ button:hover {
 }
 button {
     color: black;
+    margin-left: 10vh;
+    margin-top: 20px;
+    animation: moveUp 1.5s ease-in-out;
 }
 
 /* bg */
