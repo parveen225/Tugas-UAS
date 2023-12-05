@@ -60,7 +60,7 @@ body {
 
 .logo {
     width: 100px;
-    margin-top: -10px;
+    margin-top: 10px;
     cursor: pointer;
     font-family: walto;
 }
