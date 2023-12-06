@@ -30,22 +30,17 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     overflow: hidden;
 }
 
 body {
-    background-color: rgb(52, 38, 38);
     background-image: url(img/img-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .container {
     width: 100%;
     height: 100%;  
     background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
-    background-position: center;
-    background-size: center;
 }
 
 /* navbar */
@@ -118,7 +113,7 @@ li a:hover {
 
 
 /* button home */
-.btn-home {
+.btn-explore {
     width: 200px;
     padding: 15px;
     margin: 20px 5px;
@@ -156,19 +151,31 @@ button:hover {
     transition: 0.5s;
 }
 
+/* vidio */
 .banner video{
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
 }
+
+#bg-vidio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+
+}
+
 @media(min-aspect-ratio: 16/9){
     .banner video{
         width: 100%;
         height: auto;
     }
 }
-
 
 /* footer */
 .footer {
@@ -179,7 +186,7 @@ button:hover {
     font-size: 20px;
     bottom: 0;
     width: 100%;
-    height: 7vh;
-    padding: 7vh;
+    height: 2vh;
+    padding: 5vh;
 }
 

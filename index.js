@@ -8,6 +8,6 @@ document.getElementById('prev').onclick = function(){
 }
 
 // button on
-document.getElementById("btn-1").onclick = function() {
-  window.location.href = "about.html"};
-
+  document.getElementById('btn-explore').addEventListener('click', function() {
+    window.location.href = 'index.html';
+});
