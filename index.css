@@ -114,18 +114,30 @@ button:hover {
 }
 
 /* info1 */
+
+.jdl {
+    position: absolute;
+    background-color: #000000;
+    margin-top: 10vh;
+    width: 90vh;
+    height: 110px;
+    left: 10vh;
+    color: #fff;
+    font-family: walto;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+
 .text-1 {
     position: absolute;
-    top: 60vh;
-    box-sizing: border-box;
+    top: 50vh;
     color: #fff;
-    border-radius: 10px;
     left: 5vh;
     padding: 10px;
     width: 50%;
     height: 25%;
     font-size: 20px;
-    text-align: start;
     font-family: reguler;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
     -2px -2px 4px rgba(255, 0, 0, 0.5);
@@ -140,26 +152,13 @@ button:hover {
     border-radius: 20px;
 }
 
-.jdl{
-    position: absolute;
-    background-color: #ffffff;
-    width: 80vh;
-    height: 10vh;
-    border-right: 40px;
-    left: 10vh;
-
-}
-
-
-/* footer */
-.footer {
-    background-color: #3333337c;
-    color: #fff;
-    text-align: center;
-    position: fixed;
-    font-size: 20px;
-    bottom: 0;
+.text-2 {
+    position: relative;
+    background-color: #fff;
     width: 100%;
-    height: 2vh;
-    padding: 5vh;
+    height: 100%;
+    top: 100vh;
 }
+
+
+
