@@ -180,6 +180,10 @@ button:hover {
 @media (min-width: 1024px) {
     img {
     width: 40%; 
+    }
 }
 
-
+.wb {
+    position: relative;
+    
+}
