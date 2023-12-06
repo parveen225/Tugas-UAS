@@ -35,11 +35,10 @@
 }
 
 body {
-    background-color: #3333337c;
+    background-color: #370303;
 }
 
 .bg {
-    background-position: center;
     width: 100%;
 }
 
@@ -114,11 +113,12 @@ button:hover {
     transition: 0.5s;
 }
 
+/* info1 */
 .text-1 {
     position: absolute;
     top: 60vh;
-    background-color: #fff;
     box-sizing: border-box;
+    color: #fff;
     border-radius: 10px;
     left: 5vh;
     padding: 10px;
@@ -127,6 +127,8 @@ button:hover {
     font-size: 20px;
     text-align: start;
     font-family: reguler;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 4px rgba(255, 0, 0, 0.5);
 }
 
 .img-1 {
@@ -135,7 +137,17 @@ button:hover {
     left: 110vh;
     background-color: #000000;
     width: 80vh;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.jdl{
+    position: absolute;
+    background-color: #ffffff;
+    width: 80vh;
+    height: 10vh;
+    border-right: 40px;
+    left: 10vh;
+
 }
 
 
