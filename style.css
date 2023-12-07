@@ -141,9 +141,9 @@ li a:hover {
     font-size: 20px;
     cursor: pointer;
     font-weight: 600;
-    font-family: reguler;
-    color: rgb(255, 255, 255);
-    background-color: rgb(105, 24, 24);
+    font-family: roma;
+    color: rgb(0, 0, 0);
+    background-color: white;
 }
 
 button:hover {
@@ -177,85 +177,8 @@ button:hover {
     }
 }
 
-/* img ada 7 */
-.box {
-    margin: 0 auto;
-    width: 350px;
-    height: 200px;
-    position: relative;
-    perspective: 1000px;
-  }
-  
-.carousel {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: transform 1s;
-    user-select: none; /* Disable text selection */
-}
-.carousel div {
-    transform-style: preserve-3d;
-}
-  
-.item {
-    display: block;
-    position: absolute;
-    background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
-    width: 350px;
-    height: 200px;
-    line-height: 200px;
-    font-size: 2em;
-    text-align: center;
-    color: #333;
-    opacity: 0.8;
-    border-radius: 10px;
-    transition: transform 1s, opacity 0.5s;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-  
-.slide1 {
-    transform: rotateY(0deg) translateZ(250px);
-}
-.slide1 .item {
-    background: linear-gradient(to bottom, #e84c3d, #f66d49);
-    color: #fff; opacity:.93;
-}
-.slide2 {
-    transform: rotateY(60deg) translateZ(250px) rotateY(-60deg);
-}
-.slide2 .item {
-    background: linear-gradient(to bottom, #417ebf, #0072bc);
-    color: #fff; opacity:.93;
-}
-.slide3 {
-    transform: rotateY(120deg) translateZ(250px) rotateY(-120deg);
-}
-.slide3 .item {
-    background: linear-gradient(to bottom, #38c172, #36a165);
-    color: #fff; opacity:.93;
-}
-.slide4 {
-    transform: rotateY(180deg) translateZ(250px) rotateY(-180deg);
-}
-.slide4 .item {
-    background: linear-gradient(to bottom, #f0932b, #ed7600);
-    color: #fff; opacity:.93;
-}
-.slide5 {
-    transform: rotateY(240deg) translateZ(250px) rotateY(-240deg);
-} 
-.slide5 .item {
-    background: linear-gradient(to bottom, #9b59b6, #610093);
-    color: #fff; opacity:.93;
-}
-.slide6 {
-    transform: rotateY(300deg) translateZ(250px) rotateY(-300deg);
-}
-.slide6 .item {
-    background: linear-gradient(to bottom, #bf935a, #8c6239);
-    color: #fff; opacity:.93;
-}
+
+
 
 
 
