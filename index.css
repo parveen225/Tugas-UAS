@@ -116,28 +116,32 @@ button:hover {
 
 /* info1 */
 .info-1 {
-    margin-top: 50px;
+    margin-top: 10vh;
+}
+
+.box {
+    position: absolute;
+    left: -10vh;
+    margin-top: 10vh;
+    width: 600px; 
+    border-radius: 50px;
+    height: 130px; 
+    background-color: #000000; 
 }
 
 .jdl {
     position: absolute;
-    background-color: black;
-    height: 100px;
-    width: 1200px;
-    border-radius: 50px;
-    top: 25%; 
-    left: 0%; 
-    transform: translate(-50%, -50%);
-    color: white; 
-    font-size: 30px; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-60%, -50%); 
+    color: #ffffff; 
+    font-size: 33px; 
     font-family: walto;
-    text-align: end;
-    
 }
 
 .text-1 {
     position: absolute;
-    top: 40vh;
+    top: 45vh;
     color: #fff;
     left: 5vh;
     padding: 10px;
@@ -179,22 +183,17 @@ button:hover {
     
 }
 
+
 /* text2 */
 .text-2 {
     position: relative;
-    top: 100vh;
+    top: 20vh;
     background-image: url(./img/wpp-batik.webp);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 100%;
 }
-
-
-
-
-
-
 
 /* bg slide 2 */
 .bg-2 {
@@ -216,4 +215,40 @@ button:hover {
 .wb {
     position: relative;
     
+}
+
+.slider-container {
+    overflow: hidden;
+    width: 300px; /* Sesuaikan lebar slider sesuai kebutuhan */
+    margin: 20px auto; /* Atur margin agar berada di tengah */
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease; /* Animasi transisi */
+}
+
+.slide {
+    width: 100vh; /* Sesuaikan lebar gambar sesuai kebutuhan */
+}
+
+/* Tombol navigasi */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }

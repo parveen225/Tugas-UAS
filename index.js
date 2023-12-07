@@ -12,9 +12,28 @@ $(document).ready(function() {
 });
 
 
+// image 
+let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
 
+    function showSlide(index) {
+        if (index < 0) {
+            currentIndex = totalSlides - 1;
+        } else if (index >= totalSlides) {
+            currentIndex = 0;
+        } else {
+            currentIndex = index;
+        }
 
-// button on to halaman baru
-  document.getElementById('btn-explore').addEventListener('click', function() {
-    window.location.href = 'index.html';
-});
+        const transformValue = -currentIndex * 100 + '%';
+        document.querySelector('.slider-wrapper').style.transform = 'translateX(' + transformValue + ')';
+    }
+
+    function prevSlide() {
+        showSlide(currentIndex - 1);
+    }
+
+    function nextSlide() {
+        showSlide(currentIndex + 1);
+    }
