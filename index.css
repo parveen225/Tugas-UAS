@@ -27,8 +27,6 @@
     src: url(./font/Catchy\ Mager\ Regular.ttf);
 }
 
-
-
 * {
     padding: 0;
     margin: 0;
@@ -104,9 +102,9 @@ li a:hover {
     font-size: 20px;
     cursor: pointer;
     font-weight: 600;
-    font-family: reguler;
-    color: rgb(255, 255, 255);
-    background-color: rgb(103, 12, 12);
+    font-family: roma;
+    color: rgb(0, 0, 0);
+    background-color: white;
 }
 
 button:hover {
@@ -178,9 +176,26 @@ button:hover {
     }
 }
 
+/* box 2 */
+
+.box-2 {
+    position: absolute;
+    top: 135vh;
+    width: 100%; 
+    border-radius: 10px;
+    height: 100px; 
+    background-color: #000000; 
+}
+
 .wb {
-    position: relative;
-    
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: #ffffff; 
+    font-size: 33px; 
+    font-family: judul;
+    letter-spacing: 5px;
 }
 
 
@@ -212,12 +227,17 @@ button:hover {
     }
 }
 
+/* judul wb*/
 .wb {
     position: relative;
-    
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+
 }
 
-/* lainnya */
+/* wajah baru */
 .wb {
     background-color: #000000;
     color: #fff;
@@ -225,117 +245,73 @@ button:hover {
     
 }
 
-
 /* img ada 7 */
-html {
-    margin: 0;
-    padding: 0;
+.slide-7 {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px * 18);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.img-2 {
     width: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+    transition: transform 1s;
 }
 
-.container {
-    background-image: linear-gradient(to right, #00416a , #e4e5e6);
-    color: #212121;
-    font-size: 12px;
-    min-height: 100%;
-    min-width: 320px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.img-2:hover {
+    transform: translateZ(20px);
 }
 
-.section-header {
-    display: block;
-    margin-top: 20px;
-    position: relative;
-    text-align: center;
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, white) 0%;
+    rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
 }
 
-section {
-    padding-top: 50px;
-    overflow: hidden;
-    position: relative;
-}
-
-a, a:link, a:visited {
-    color: #212121;
-    text-decoration: none;
-}
-
-.Carousel-slider {
-    height: 560px;
-    position: relative;
-    width: 100%;
-}
-
-.Carousel-slider.fullwidth {
-    height: 500px;
-}
-
-.Carousel-slider.fullwidth .slider-item {
-    height: 480px;
-    line-height: 480px;
-    width: 100%
-}
-
-.slider-wrapper {
-    overflow: hidden;
-    position: relative;
-    transform-style: preserve-3d;
-    transform-origin: 0 50%;
-	perspective: 800px  !important;
-}
-
-.slider-item {
-    box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.12);
-    display: none;
-    height: 320px;
-    width: 320px;
+.slider::before {
     left: 0;
-    position: absolute;
-    text-align: center;
     top: 0;
-    cursor: pointer;
-	border: 5px solid #070707;
 }
 
-.indicators {
-	top: 0;
-    left: 50%;
-    padding: 0;
-    list-style-type: none;
-    margin: 40px 0 0 -77px;
-    position: absolute;
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
 }
-
-.indicators li {
-    color: #255f8b;
-    float: left;
-    height: 16px;
-    margin-right: 8px;
-    text-align: center;
-    width: 16px;
-}
-
-.indicators li:last-child {margin: 0;}
-.indicators a {
-    background: #00416a;
-    border-radius: 8px;
-    display: inline-block;
-    height: 16px;
-    width: 16px;
-}
-
-.indicators .active a {
-	background: #e4e5e6;
-
-}
-.image1 {background-image: url(img/1500x1000-angling.jpg); border-radius: 50px !important; height: 100px;}
-.image2 {background-image: url(img/1500x1000-cagv1.jpg); border-radius: 50px !important;}
-.image3 {background-image: url(img/1500x1000-jagatsatwa.jpg); border-radius: 50px !important;}
-.image4 {background-image: url(img/1500x1000-keretagantung.jpg); border-radius: 50px !important;}
-.image5 {background-image: url(img/1500x1000-merchstore.jpg); border-radius: 50px !important;}
-.image6 {background-image: url(img/1500x1000-musindo-1.jpg); border-radius: 50px !important;}
-.image7 {background-image: url(img/1500x1000-tirtacerita-2.jpg); border-radius: 50px !important;}
