@@ -1,0 +1,278 @@
+.container{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+
+.fotoJelajah {
+    /* width: 1260px; */
+    width: 1285px;
+    height: 300px;
+    border-radius: 4%;
+    
+}
+.judulJelajah {
+    text-align: left;
+    font-size: 170%;
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.deskripsiJelajah { 
+    margin-left: 180px;
+    text-align: left;
+}
+
+.button { 
+    width: 50%;
+}
+
+.galeriJudul {
+    text-align: center;
+    font-size: 200%;
+}
+/* anjungan1 */
+.aceh { 
+    width: 50%;
+    max-width: 300px;
+    max-height: 700px;
+}
+.bali { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.bangka{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.banten{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.gorontalo{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+/* anjungan2 */
+.jkt { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.jabar { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.jatim { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.lampung { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.kalsel{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    max-width: 293px;
+    max-height: 700px; 
+}
+/* anjungan3 */
+.kepriau { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.ntb { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.ntt { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.papua { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.riau{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    max-width: 293px;
+    max-height: 700px; 
+}
+/* anjungan4 */
+.sulbar { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.sulteng { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.sulut { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.sumbar { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.sumsel{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    max-width: 293px;
+    max-height: 700px; 
+}
+
+
+
+
+
+
+
+
+/* rumahibadah */
+.judulIbadah {
+    text-align: left;
+    font-size: 170%;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+.gereja { 
+    width: 50%;
+    max-width: 300px;
+    max-height: 700px;
+}
+.masjid { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.klenteng{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.pura{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.wihara{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+
+/* rumahibadah */
+.judulFloraFauna {
+    text-align: left;
+    font-size: 170%;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+.airtawar { 
+    width: 50%;
+    max-width: 300px;
+    max-height: 700px;
+}
+.tamanburung { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
+.tamanhijau { 
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
+    max-height: 700px; 
+}
