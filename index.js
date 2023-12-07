@@ -1,4 +1,3 @@
-
 // navbar stay
 $(document).ready(function() {
   var navbar = $(".navbar");
