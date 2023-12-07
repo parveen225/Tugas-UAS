@@ -35,7 +35,7 @@
 }
 
 body {
-    background-color: #370303;
+    background-image: url(./img/Group\ 2.png);
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@ body {
     align-items: center;
     justify-content: space-between;
     pad: 33px 9%;
-    background: rgba(0, 0, 0, 0.466);
+    background: rgb(0, 0, 0);
 }
 
 
@@ -121,16 +121,18 @@ button:hover {
 
 .jdl {
     position: absolute;
-    background-color: #000000;
-    margin-top: 10vh;
-    width: 90vh;
-    height: 110px;
-    left: 10vh;
-    color: #fff;
+    background-color: black;
+    height: 100px;
+    width: 1200px;
+    border-radius: 50px;
+    top: 25%; 
+    left: 0%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 30px; 
     font-family: walto;
-    font-size: 50px;
-    text-align: center;
-    border-radius: 30px;
+    text-align: end;
+    
 }
 
 .text-1 {
@@ -156,6 +158,27 @@ button:hover {
     border-radius: 20px;
 }
 
+.bg-1 {
+    width: 100%;
+    height: auto;
+    }
+      
+@media (min-width: 768px) {
+    img {
+        width: 50%; 
+    }
+}
+@media (min-width: 1024px) {
+    img {
+    width: 40%; 
+    }
+}
+
+.wb {
+    position: relative;
+    
+}
+
 /* text2 */
 .text-2 {
     position: relative;
@@ -166,7 +189,6 @@ button:hover {
     width: 100%;
     height: 100%;
 }
-
 
 
 
