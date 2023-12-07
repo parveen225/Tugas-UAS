@@ -35,7 +35,7 @@
 }
 
 body {
-    background-color: #370303;
+    background-image: url(./img/Group\ 2.png);
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@ body {
     align-items: center;
     justify-content: space-between;
     pad: 33px 9%;
-    background: rgba(0, 0, 0, 0.466);
+    background: rgb(0, 0, 0);
 }
 
 
@@ -116,26 +116,32 @@ button:hover {
 
 /* info1 */
 .info-1 {
-    margin-top: 50px;
+    margin-top: 10vh;
+}
+
+.box {
+    position: absolute;
+    left: -10vh;
+    margin-top: 10vh;
+    width: 600px; 
+    border-radius: 50px;
+    height: 130px; 
+    background-color: #000000; 
 }
 
 .jdl {
     position: absolute;
-    background-color: #000000;
-    margin-top: 10vh;
-    width: 90vh;
-    height: 110px;
-    left: 10vh;
-    color: #fff;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-60%, -50%); 
+    color: #ffffff; 
+    font-size: 33px; 
     font-family: walto;
-    font-size: 50px;
-    text-align: center;
-    border-radius: 30px;
 }
 
 .text-1 {
     position: absolute;
-    top: 40vh;
+    top: 45vh;
     color: #fff;
     left: 5vh;
     padding: 10px;
@@ -156,9 +162,32 @@ button:hover {
     border-radius: 20px;
 }
 
+.bg-1 {
+    width: 100%;
+    height: auto;
+    }
+      
+@media (min-width: 768px) {
+    img {
+        width: 50%; 
+    }
+}
+@media (min-width: 1024px) {
+    img {
+    width: 40%; 
+    }
+}
+
+.wb {
+    position: relative;
+    
+}
+
+
+/* text2 */
 .text-2 {
     position: relative;
-    top: 100vh;
+    top: 20vh;
     background-image: url(./img/wpp-batik.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -187,3 +216,126 @@ button:hover {
     position: relative;
     
 }
+
+/* lainnya */
+.wb {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 20px;
+    
+}
+
+
+/* img ada 7 */
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    background-image: linear-gradient(to right, #00416a , #e4e5e6);
+    color: #212121;
+    font-size: 12px;
+    min-height: 100%;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.section-header {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+section {
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+a, a:link, a:visited {
+    color: #212121;
+    text-decoration: none;
+}
+
+.Carousel-slider {
+    height: 560px;
+    position: relative;
+    width: 100%;
+}
+
+.Carousel-slider.fullwidth {
+    height: 500px;
+}
+
+.Carousel-slider.fullwidth .slider-item {
+    height: 480px;
+    line-height: 480px;
+    width: 100%
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: 0 50%;
+	perspective: 800px  !important;
+}
+
+.slider-item {
+    box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.12);
+    display: none;
+    height: 320px;
+    width: 320px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    cursor: pointer;
+	border: 5px solid #070707;
+}
+
+.indicators {
+	top: 0;
+    left: 50%;
+    padding: 0;
+    list-style-type: none;
+    margin: 40px 0 0 -77px;
+    position: absolute;
+}
+
+.indicators li {
+    color: #255f8b;
+    float: left;
+    height: 16px;
+    margin-right: 8px;
+    text-align: center;
+    width: 16px;
+}
+
+.indicators li:last-child {margin: 0;}
+.indicators a {
+    background: #00416a;
+    border-radius: 8px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.indicators .active a {
+	background: #e4e5e6;
+
+}
+.image1 {background-image: url(img/1500x1000-angling.jpg); border-radius: 50px !important; height: 100px;}
+.image2 {background-image: url(img/1500x1000-cagv1.jpg); border-radius: 50px !important;}
+.image3 {background-image: url(img/1500x1000-jagatsatwa.jpg); border-radius: 50px !important;}
+.image4 {background-image: url(img/1500x1000-keretagantung.jpg); border-radius: 50px !important;}
+.image5 {background-image: url(img/1500x1000-merchstore.jpg); border-radius: 50px !important;}
+.image6 {background-image: url(img/1500x1000-musindo-1.jpg); border-radius: 50px !important;}
+.image7 {background-image: url(img/1500x1000-tirtacerita-2.jpg); border-radius: 50px !important;}
